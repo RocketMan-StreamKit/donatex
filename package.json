@@ -1,0 +1,15 @@
+{
+  "name": "donatex",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Integration addon for StreamKit+.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.5",
+    "@rocketman-streamkit/types": "^1.0.37",
+    "typescript": "^5.8.3"
+  }
+}

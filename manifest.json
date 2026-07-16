@@ -1,0 +1,25 @@
+{
+  "id": "donatex",
+  "name": {
+    "en": "Donatex",
+    "ru": "Donatex",
+    "uk": "Donatex"
+  },
+  "description": {
+    "en": "Donatex integration: API key and real-time donation alerts via SignalR.",
+    "ru": "Интеграция Donatex: API ключ и донаты в реальном времени через SignalR.",
+    "uk": "Інтеграція Donatex: API ключ і донати в реальному часі через SignalR."
+  },
+  "type": "platform.donation",
+  "version": "1.0.0",
+  "author": "RocketMan System",
+  "icon": "logo.svg",
+  "permissions": [
+    "NETWORK_REQUEST",
+    "NETWORK_WEBSOCKET",
+    "DASHBOARD_EVENTS",
+    "STATUS",
+    "NOTIFY"
+  ],
+  "app_version": "1.0.37"
+}
