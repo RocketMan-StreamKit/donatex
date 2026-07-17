@@ -8,7 +8,7 @@ Donatex integration addon for StreamKit+. Receives real-time donation alerts via
 
 ## Setup
 
-1. Go to [donatex.gg/profile](https://donatex.gg/profile) and copy your **API key**.
+1. Go to [donatex.gg/streamer/settings](https://donatex.gg/streamer/settings) and copy your **API key**.
 2. Install this addon in **StreamKit+ → Settings → Addons**.
 3. Approve the requested permissions.
 4. Paste the API key in the addon settings.

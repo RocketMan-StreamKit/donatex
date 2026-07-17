@@ -54,9 +54,9 @@ export const RegenerateConfig = () => {
           uk: 'API ключ',
         },
         description: {
-          en: 'Enter your Donatex API key from donatex.gg/profile',
-          ru: 'Введите ваш API ключ Donatex из donatex.gg/profile',
-          uk: 'Введіть ваш API ключ Donatex з donatex.gg/profile',
+          en: 'Enter your Donatex API key from donatex.gg/streamer/settings',
+          ru: 'Введите ваш API ключ Donatex из donatex.gg/streamer/settings',
+          uk: 'Введіть ваш API ключ Donatex з donatex.gg/streamer/settings',
         },
       },
     });
@@ -72,9 +72,9 @@ export const RegenerateConfig = () => {
             uk: "Під'єднання до Donatex",
           },
           description: {
-            en: 'Go to donatex.gg/profile, copy your API key and paste it above.',
-            ru: 'Перейдите на donatex.gg/profile, скопируйте API ключ и вставьте его выше.',
-            uk: 'Перейдіть на donatex.gg/profile, скопіюйте API ключ та вставте його вище.',
+            en: 'Go to donatex.gg/streamer/settings, copy your API key and paste it above.',
+            ru: 'Перейдите на donatex.gg/streamer/settings, скопируйте API ключ и вставьте его выше.',
+            uk: 'Перейдіть на donatex.gg/streamer/settings, скопіюйте API ключ та вставте його вище.',
           },
         },
       });
@@ -98,7 +98,7 @@ export const RegenerateConfig = () => {
 };
 
 events.On('donatexOpenProfile', () => {
-  api.openUrl('https://donatex.gg/profile');
+  api.openUrl('https://donatex.gg/streamer/settings');
 });
 
 RegenerateConfig();
